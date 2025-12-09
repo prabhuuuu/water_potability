@@ -7,7 +7,7 @@ data =pd.read_csv("C:\Me.dev\Projects\Major_projects\water_potability\water_pota
 train_data,test_data=train_test_split(data,test_size=0.2,random_state=42)
 
 
-data_path = os.path.join("data","raw_data")
+data_path = os.path.join("data","raw")
 
 os.makedirs(data_path)
 

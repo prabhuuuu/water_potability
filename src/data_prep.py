@@ -3,8 +3,8 @@ import numpy as np
 import os 
 
 
-train_data =pd.read_csv(r"data\raw_data\train.csv")
-test_data =pd.read_csv(r"data\raw_data\test.csv")
+train_data =pd.read_csv(r"./data/raw/train.csv")
+test_data =pd.read_csv(r"./data/raw/test.csv")
 
 
 def fill_missing_values(df):

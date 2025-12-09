@@ -4,11 +4,11 @@ stages:
     deps:
     - src/data_collection.py
     outs:
-    - data/raw_data
-  pre_processing:
+    - data/raw
+  pre_processsing:
     cmd: python src/data_prep.py
     deps:
-    - data/raw_data
+    - data/raw
     - src/data_prep.py
     outs:
     - data/processed
